@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h1>Todo App</h1>
+      <h1>Things To-do</h1>
       <div className="input-container">
         <input
           type="text"
@@ -38,7 +38,7 @@ const Home = () => {
           onChange={handleInputChange}
           placeholder="Enter your todo"
         />
-        <button onClick={handleAddTodo}>Add Todo</button>
+        <button onClick={handleAddTodo}>Add To-do</button>
       </div>
       <ul>
         {todos.map((todo) => (
