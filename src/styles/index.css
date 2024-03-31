@@ -1,13 +1,23 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
-@import 'bootstrap/dist/css/bootstrap.min.css';
+/* index.css */
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
