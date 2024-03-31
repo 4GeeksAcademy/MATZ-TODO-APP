@@ -1,6 +1,5 @@
 // Home.jsx
 import React, { useState } from 'react';
-import './index.css';
 
 const Home = () => {
   const [todos, setTodos] = useState([]);
